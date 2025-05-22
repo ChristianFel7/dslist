@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan("entities")
+@EntityScan("com/devsuperior/dslist/entities")
 public class DslistApplication {
 
 	public static void main(String[] args) {
